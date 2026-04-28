@@ -1,8 +1,8 @@
-#**Proyecto 2 - Sofía Lorena Casallas Beltrán**
+# **Proyecto 2 - Sofía Lorena Casallas Beltrán**
 
-##**Arqueología Galáctica y el Misterio de Omega Centauri**
+## **Arqueología Galáctica y el Misterio de Omega Centauri**
 
-###**Coordenadas**
+### **Coordenadas**
 - **Ascensión recta:** 201.6967
 - **Declinación:** -47.4795
 
