@@ -7,7 +7,7 @@ df=pd.read_sql('SELECT * FROM estrellas', arqueo)
 
 #Diagrama racimo completo
 plt.figure(figsize=(8, 6))
-plt.scatter(df['pmRA'], df['pmDE'], color='purple')
+plt.scatter(df['pmRA'], df['pmDE'], color='purple', alpha=0.2, s=4)
 plt.xlabel('pmRA')
 plt.ylabel('pmDE')
 plt.title('Movimiento propio de Omega Centauri')
@@ -16,12 +16,12 @@ plt.savefig('mov_propio.png')
 print("Análisis completado. Se guarda la imagen en mov_propio.png")
 
 #Filtro SQL avanzado
-df_filtro=pd.read_sql('SELECT * FROM estrellas WHERE pmRA BETWEEN -8 AND 2 AND pmDE BETWEEN -12 AND -2', arqueo)
+df_filtro=pd.read_sql('SELECT * FROM estrellas WHERE pmRA BETWEEN -8 AND 2 AND pmDE BETWEEN -10 AND 1', arqueo)
 
 #Diagrama racimo filtrado de color-magnitud
 df_filtro['color_BP_RP']=df_filtro['BPmag']-df_filtro['RPmag']
 plt.figure(figsize=(8, 6))
-plt.scatter(df_filtro['color_BP_RP'], df_filtro['Gmag'], color='crimson')
+plt.scatter(df_filtro['color_BP_RP'], df_filtro['Gmag'], color='crimson', alpha=0.3)
 plt.gca().invert_yaxis()
 plt.xlabel('BP - RP')
 plt.ylabel('G')
