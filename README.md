@@ -12,7 +12,7 @@ los datos para que tenga valores NaN, esto para finalmente utilizarlos en
 `3_analisis.py` donde se  genera el diagrama de movimiento propio y el diagrama 
 Color-Magnitud de Omega Centauri.
 
-### *Resultados**
+### **Resultados**
 
 #### **Gráfica 1: Movimiento Propio**
 ![Movimiento Propio](mov_propio.png)
