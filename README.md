@@ -17,7 +17,7 @@ Color-Magnitud de Omega Centauri.
 #### **Gráfica 1: Movimiento Propio**
 ![Movimiento Propio](mov_propio.png)
 
-En esta gráfica se distingue los dos grupos esperados desde la teoría, una nube con estrellas que pertenecen a la Vía Láctea y un racimo denso que corresponde a Omega Centauri, el cual se busca definir su tamaño para analizar exclusivamente las estrellas de este cúmulo. Para verificar cuales eran las que tenían el mismo vecotr de movimiento se utilizó una transparencia, lo que permitió visualizar que en las zonas más oscuras, donde se forma el racimo, son estrellas que se encuentran gravitacionalmente ligadas, por lo que pertenecen ala mismo cúmulo. 
+En esta gráfica se distingue los dos grupos esperados desde la teoría, una nube con estrellas que pertenecen a la Vía Láctea y un racimo denso que corresponde a Omega Centauri, el cual se busca definir su tamaño para analizar exclusivamente las estrellas de este cúmulo. Para verificar cuales eran las que tenían el mismo vector de movimiento se utilizó una transparencia, lo que permitió visualizar que en las zonas más oscuras, donde se forma el racimo, son estrellas que se encuentran gravitacionalmente ligadas, por lo que pertenecen al mismo cúmulo. 
 Se definió el rango de este racimo entre *pmRA*=[-8,2] y *pmDE*=[-10,1], valores elegidos usando la gráfica 1.
 
 #### **Gráfica 2: Diagrama Color-Magnitud**
