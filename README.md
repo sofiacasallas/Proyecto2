@@ -12,19 +12,17 @@ los datos para que tenga valores NaN, esto para finalmente utilizarlos en
 `3_analisis.py` donde se  genera el diagrama de movimiento propio y el diagrama 
 Color-Magnitud de Omega Centauri.
 
-###**Resultados**
+### *Resultados**
 
-####**Gráfica 1: Movimiento Propio**
+#### **Gráfica 1: Movimiento Propio**
 ![Movimiento Propio](mov_propio.png)
 
-Se distinguen dos poblaciones: una nube dispersa centrada cerca del origen 
-que corresponde a estrellas de fondo de la Vía Láctea con movimientos 
-aleatorios, y un racimo denso desplazado hacia pmRA entre -8 y 2 mas/yr 
-y pmDE entre -15 y -3 mas/yr que corresponde a Omega Centauri moviéndose 
-como un enjambre coherente. El hecho de que todas compartan el mismo 
+En esta gráfica se distingue los dos grupos esperados desde la teoría: una nube con estrellas que corresponden a
+estrellas que pertenecen a la Vía Láctea y un raximo denso que corresponde a Omega Centauri, el cual se busca definir
+su tamaño para analizar exclusivamente las estrellas de este cúmulo. El hecho de que todas compartan el mismo 
 vector de movimiento confirma que están gravitacionalmente ligadas.
 
-####**Gráfica 2: Diagrama Color-Magnitud**
+#### **Gráfica 2: Diagrama Color-Magnitud**
 ![Diagrama HR](diagrama_HR.png)
 
 Al aplicar el filtro SQL sobre el racimo cinemático, el diagrama 
